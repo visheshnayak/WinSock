@@ -230,5 +230,6 @@ int __cdecl main(void)
 	closesocket(ClientSocket);
 	WSACleanup();
 
+	getchar();
 	return 0;
 }
